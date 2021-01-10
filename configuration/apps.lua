@@ -17,7 +17,7 @@ return {
     delayed_screenshot = 'flameshot full -p ~/Pictures -d 5000',
     browser = 'firefox-esr',
     editor = 'gnome-builder', -- gui text editor
-    social = 'discord-ptb',
+    social = 'discord',
     game = rofi_command,
     files = 'thunar',
     music = rofi_command 
@@ -36,7 +36,7 @@ return {
      'steam -silent',
      'briar-gtk',
      'thunderbird',
-     'discord-ptb --start-minimized',
+     'discord --start-minimized',
      '/usr/bin/barrier',
      '~/.local/bin/wallpaper', -- wallpaper-reddit script
     -- Add applications that need to be killed between reloads
